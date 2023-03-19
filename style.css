@@ -110,3 +110,7 @@ h1 {
 .checkbox-grid label {
     display: block;
 }
+
+.checkboxes{
+    columns: 3 8em;
+}

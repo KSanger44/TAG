@@ -58,14 +58,34 @@
             Title<input type="text" id="title" name="title"><br>
             Description<input type="text" id="desc" name="desc"><br>
             Key Words<br><br>
-            <div class="checkbox-grid">
-                <label><input type="checkbox" name="option1">Option 1</label>
-                <label><input type="checkbox" name="option2">Option 2</label>
-                <label><input type="checkbox" name="option3">Option 3</label>
-                <label><input type="checkbox" name="option4">Option 4</label>
-                <label><input type="checkbox" name="option5">Option 5</label>
-                <label><input type="checkbox" name="option6">Option 6</label>
-            </div>
+            Key Words<br><br>
+            <ul class="checkboxes">
+                <label><input type="checkbox" name="Algorithms">Algorithms</label><br>
+                <label><input type="checkbox" name="CMS">CMS</label><br>
+                <label><input type="checkbox" name="Communication">Communication</label><br>
+                <label><input type="checkbox" name="Contest">Contest</label><br>
+                <label><input type="checkbox" name="Database">Database</label><br>
+                <label><input type="checkbox" name="e-Commerce">e-Commerce</label><br>
+                <label><input type="checkbox" name="Education">Education</label><br>
+                <label><input type="checkbox" name="Events">Events</label><br>
+                <label><input type="checkbox" name="External">External</label><br>
+                <label><input type="checkbox" name="ForProfit">External - for Profit</label><br>
+                <label><input type="checkbox" name="File Storage">File Storage</label><br>
+                <label><input type="checkbox" name="Internal">Internal</label><br>
+                <label><input type="checkbox" name="KMS">KMS</label><br>
+                <label><input type="checkbox" name="Marketing">Marketing</label><br>
+                <label><input type="checkbox" name="Networks">Networks</label><br>
+                <label><input type="checkbox" name="Open Source">Open Source</label><br>
+                <label><input type="checkbox" name="Procedures">Procedures</label><br>
+                <label><input type="checkbox" name="Programming">Programming</label><br>
+                <label><input type="checkbox" name="Queries">Queries</label><br>
+                <label><input type="checkbox" name="Resources">Resources</label><br>
+                <label><input type="checkbox" name="Security">Security</label><br>
+                <label><input type="checkbox" name="Social">Social</label><br>
+                <label><input type="checkbox" name="Web">Web</label><br>
+                <label><input type="checkbox" name="Website">Website</label><br>
+                <label><input type="checkbox" name="Workshop">Workshop</label><br>
+            </ul>
             <input type="submit" id="deleteproj" name="deleteproj" value="Delete" style="width: 50%; float: left;">
             <input type="submit" id="modproj" name="modproj" value="Modify" style="width: 50%; float: left">
           </form>         
